@@ -1,5 +1,5 @@
 {
-  "_from": "github:RocketChat/react-native-jitsi-meet",
+  "_from": "github:Solarripper/react-native-jitsi-meet",
   "_id": "react-native-jitsi-meet@2.4.0",
   "_inBundle": false,
   "_integrity": "",
@@ -7,11 +7,11 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "react-native-jitsi-meet@github:RocketChat/react-native-jitsi-meet",
+    "raw": "react-native-jitsi-meet@github:Solarripper/react-native-jitsi-meet",
     "name": "react-native-jitsi-meet",
     "escapedName": "react-native-jitsi-meet",
-    "rawSpec": "github:RocketChat/react-native-jitsi-meet",
-    "saveSpec": "github:RocketChat/react-native-jitsi-meet",
+    "rawSpec": "github:Solarripper/react-native-jitsi-meet",
+    "saveSpec": "github:Solarripper/react-native-jitsi-meet",
     "fetchSpec": null,
     "gitCommittish": null
   },
@@ -19,21 +19,21 @@
     "/"
   ],
   "_resolved": "github:RocketChat/react-native-jitsi-meet#e45a042bc916d53c05d1d4e09becb2186144bc72",
-  "_spec": "react-native-jitsi-meet@github:RocketChat/react-native-jitsi-meet",
+  "_spec": "react-native-jitsi-meet@github:Solarripper/react-native-jitsi-meet",
   "_where": "C:\\ProjectReact\\Rocket.Chat.ReactNative",
   "author": {
-    "name": "Sébastien Krafft",
-    "email": "skrafft@gmail.com"
+    "name": "",
+    "email": ""
   },
   "bugs": {
-    "url": "https://github.com/skrafft/react-native-jitsi-meet/issues"
+    "url": "https://github.com/Solarripper/react-native-jitsi-meet/issues"
   },
   "bundleDependencies": false,
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
   "description": "Jitsi Meet SDK wrapper for React Native.",
-  "homepage": "https://github.com/skrafft/react-native-jitsi-meet",
+  "homepage": "https://github.com/Solarripper/react-native-jitsi-meet",
   "keywords": [
     "jitsi",
     "jitsi meet",
@@ -52,7 +52,7 @@
   "nativePackage": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skrafft/react-native-jitsi-meet.git"
+    "url": "git+https://github.com/Solarripper/react-native-jitsi-meet.git"
   },
   "version": "2.4.0"
 }
