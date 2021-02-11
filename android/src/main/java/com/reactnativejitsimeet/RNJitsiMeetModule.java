@@ -40,7 +40,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                     RNJitsiMeetUserInfo _userInfo = new RNJitsiMeetUserInfo();
                     if (userInfo != null) {
                         if (userInfo.hasKey("displayName")) {
-                            _userInfo.setDisplayName('KOK');
+                            _userInfo.setDisplayName("displayName");
                           }
                           if (userInfo.hasKey("email")) {
                             _userInfo.setEmail(userInfo.getString("email"));
@@ -59,6 +59,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setUserInfo(_userInfo)
                             .setFeatureFlag("pip.enabled", false)
                             .setFeatureFlag("calendar.enabled", false)
+                            .setFeatureFlag("recording.enabled", false)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
                 }
@@ -75,7 +76,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                     RNJitsiMeetUserInfo _userInfo = new RNJitsiMeetUserInfo();
                     if (userInfo != null) {
                         if (userInfo.hasKey("displayName")) {
-                            _userInfo.setDisplayName('KOK');
+                            _userInfo.setDisplayName("displayName");
                           }
                           if (userInfo.hasKey("email")) {
                             _userInfo.setEmail(userInfo.getString("email"));
@@ -94,6 +95,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setUserInfo(_userInfo)
                             .setFeatureFlag("pip.enabled", false)
                             .setFeatureFlag("calendar.enabled", false)
+                            .setFeatureFlag("recording.enabled", false)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
                 }
