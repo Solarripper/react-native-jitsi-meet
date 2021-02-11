@@ -47,6 +47,14 @@ RCT_EXPORT_METHOD(call:(NSString *)urlString userInfo:(NSDictionary *)userInfo)
 
             [builder setFeatureFlag:@"pip.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"calendar.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"recording.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"add-people.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"chat.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"invite.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"live-streaming.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"meeting-name.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
         }];
         [jitsiMeetView join:options];
     });
@@ -76,6 +84,14 @@ RCT_EXPORT_METHOD(audioCall:(NSString *)urlString userInfo:(NSDictionary *)userI
 
             [builder setFeatureFlag:@"pip.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"calendar.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"recording.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"add-people.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"chat.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"invite.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"live-streaming.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"meeting-name.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
         }];
         [jitsiMeetView join:options];
     });
