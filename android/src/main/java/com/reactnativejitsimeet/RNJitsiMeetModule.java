@@ -68,6 +68,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setFeatureFlag("meeting-password.enabled", false)
                             .setFeatureFlag("meeting-password.enabled", false)
                             .setFeatureFlag("video-share.enabled", false)
+                            .setFeatureFlag("toolbox.enabled", false)
                             .setFeatureFlag("help.enabled", false)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
@@ -113,6 +114,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setFeatureFlag("meeting-password.enabled", false)
                             .setFeatureFlag("meeting-password.enabled", false)
                             .setFeatureFlag("video-share.enabled", false)
+                            .setFeatureFlag("toolbox.enabled", false)
                             .setFeatureFlag("help.enabled", false)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
