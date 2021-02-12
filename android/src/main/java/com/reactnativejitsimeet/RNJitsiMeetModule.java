@@ -40,7 +40,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                     RNJitsiMeetUserInfo _userInfo = new RNJitsiMeetUserInfo();
                     if (userInfo != null) {
                         if (userInfo.hasKey("displayName")) {
-                            _userInfo.setDisplayName("displayName");
+                            _userInfo.setDisplayName(userInfo.getString("displayName"));
                           }
                           if (userInfo.hasKey("email")) {
                             _userInfo.setEmail(userInfo.getString("email"));
@@ -67,6 +67,8 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setFeatureFlag("meeting-name.enabled", false)
                             .setFeatureFlag("meeting-password.enabled", false)
                             .setFeatureFlag("meeting-password.enabled", false)
+                            .setFeatureFlag("video-share.enabled", false)
+                            .setFeatureFlag("help.enabled", false)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
                 }
@@ -83,7 +85,7 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                     RNJitsiMeetUserInfo _userInfo = new RNJitsiMeetUserInfo();
                     if (userInfo != null) {
                         if (userInfo.hasKey("displayName")) {
-                            _userInfo.setDisplayName("displayName");
+                            _userInfo.setDisplayName(userInfo.getString("displayName"));
                           }
                           if (userInfo.hasKey("email")) {
                             _userInfo.setEmail(userInfo.getString("email"));
@@ -110,6 +112,8 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setFeatureFlag("meeting-name.enabled", false)
                             .setFeatureFlag("meeting-password.enabled", false)
                             .setFeatureFlag("meeting-password.enabled", false)
+                            .setFeatureFlag("video-share.enabled", false)
+                            .setFeatureFlag("help.enabled", false)
                             .build();
                     mJitsiMeetViewReference.getJitsiMeetView().join(options);
                 }

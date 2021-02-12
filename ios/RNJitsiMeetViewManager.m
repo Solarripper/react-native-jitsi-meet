@@ -55,6 +55,8 @@ RCT_EXPORT_METHOD(call:(NSString *)urlString userInfo:(NSDictionary *)userInfo)
             [builder setFeatureFlag:@"meeting-name.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"video-share.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@" help.enabled" withBoolean:NO];
         }];
         [jitsiMeetView join:options];
     });
@@ -92,6 +94,8 @@ RCT_EXPORT_METHOD(audioCall:(NSString *)urlString userInfo:(NSDictionary *)userI
             [builder setFeatureFlag:@"meeting-name.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"meeting-password.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@"video-share.enabled" withBoolean:NO];
+            [builder setFeatureFlag:@" help.enabled" withBoolean:NO];
         }];
         [jitsiMeetView join:options];
     });
